@@ -19,7 +19,10 @@ bool isrepeat(int a){
 
 int main(){
 	int count =0;
-	for(int i=101;i<=202;i++){
+	int a,b;
+	cin>>a;
+	cin>>b;
+	for(int i=a;i<=b;i++){
 		if(!isrepeat(i))count+=1;
 	}
 	cout<<count;
